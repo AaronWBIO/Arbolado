@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="Menú principal" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/icon_catalogo"
+            android:title="Catálogo de Árboles" />
+        <item
+            android:id="@+id/nav_identifier"
+            android:icon="@drawable/icon_identifica"
+            android:title="Identificación de Árboles" />
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/icon_maps"
+            android:title="Mapa de Arbolado" />
+
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/icon_aprende"
+            android:title="Aprende a identificar" />
+        <item
+            android:id="@+id/nav_incentivos"
+            android:icon="@drawable/icon_sobre"
+            android:title="Aprende sobre" />
+        <item
+            android:id="@+id/nav_uds"
+            android:icon="@drawable/icon_uds"
+            android:title="UDS" />
+
+
+    </group>
+
+</menu>

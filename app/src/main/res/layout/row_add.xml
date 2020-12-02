@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/edit_add"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_round"
+        android:inputType="number"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="60dp"
+        android:hint="circunferencia"
+        />
+    <Button
+        android:id="@+id/btn_row_remove"
+        android:layout_margin="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@id/input_copa_norte"
+        android:layout_alignParentRight="true"
+
+        android:text="x"
+        android:background="@drawable/button_round"
+        android:textColor="#FFFFFF"
+        />
+
+
+</LinearLayout>
